@@ -120,7 +120,7 @@ main(int argc, char* argv[])
     Ipv4InterfaceContainer interfaces = ipv4.Assign(endNodeDevices);
 
     NeighborCacheHelper neighborCache;
-    neighborCache.PopulateNeighborCache ();
+//    neighborCache.PopulateNeighborCache ();
 
     //Create Ping application and installing on node
     PingHelper pingHelper(interfaces.GetAddress (dstIdx), interfaces.GetAddress (srcIdx));

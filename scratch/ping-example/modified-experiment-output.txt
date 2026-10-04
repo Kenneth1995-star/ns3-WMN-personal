@@ -1,0 +1,15 @@
+[  0%] Building CXX object scratch/CMakeFiles/scratch_ping-example_ping-example.dir/ping-example/ping-example.cc.o
+[  1%] Linking CXX executable /home/kerne/ns3-labs/build/scratch/ping-example/ns3.48-ping-example
+PING 10.1.1.1 - 56 bytes of data; 84 bytes including ICMP and IPv4 headers.
+64 bytes from 10.1.1.1: icmp_seq=0 ttl=64 time=15.212 ms
+64 bytes from 10.1.1.1: icmp_seq=1 ttl=64 time=0.496 ms
+64 bytes from 10.1.1.1: icmp_seq=2 ttl=64 time=0.496 ms
+64 bytes from 10.1.1.1: icmp_seq=3 ttl=64 time=0.496 ms
+64 bytes from 10.1.1.1: icmp_seq=4 ttl=64 time=0.496 ms
+64 bytes from 10.1.1.1: icmp_seq=5 ttl=64 time=0.496 ms
+64 bytes from 10.1.1.1: icmp_seq=6 ttl=64 time=0.496 ms
+64 bytes from 10.1.1.1: icmp_seq=7 ttl=64 time=0.496 ms
+
+--- 10.1.1.1 ping statistics ---
+8 packets transmitted, 8 received, 0% packet loss, time 3500ms
+rtt min/avg/max/mdev = 0.496/2.335/15.21/5.203 ms
